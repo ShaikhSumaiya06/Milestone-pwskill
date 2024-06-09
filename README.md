@@ -1,3 +1,2 @@
 # Milestone Exams by PW
-
-![tick_symbol]([https://search.app.goo.gl/kdPJCVn](https://search.app.goo.gl/3QBH2UY))
+![tick](<a href="https://www.flaticon.com/free-icons/yes" title="yes icons">Yes icons created by juicy_fish - Flaticon</a>)
