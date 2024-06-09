@@ -1,0 +1,87 @@
+    @media screen and (max-width:720px) {
+        nav {
+            padding: 0px 40px;
+        }
+        nav .nav-links {
+            display: none;
+        }
+        nav .nav-logo-section {
+            gap: 10px;
+        }
+        nav .nav-logo-section p {
+            font-size: 20px
+        }
+        nav .nav-btn {
+            display: none;
+        }
+        main {
+            flex-direction: column;
+            overflow: visible;
+        }
+        .text-section {
+            width: 100vw;
+            position: relative;
+            left: 20%;
+            padding: 0 50px 50px 50px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .text-section h1 {
+            font-size: 2rem;
+        }
+        .text-section p {
+            margin-top: 0px;
+        }
+        .image-section {
+            width: 60%;
+            position: relative;
+            top: 5px;
+            right: -10%;
+            top: -10%;
+        }
+        .image-section .main-image {
+            margin-right: 0px;
+            width: 100%;
+        }
+        .image-section .main-image-border {
+            width: 100%;
+            right: 0;
+        }
+        .image-section .orange-img {
+            left: 0;
+        }
+        .image-section .green-img {
+            left: 0;
+        }
+        .image-section .curved-img {
+            left: 150px;
+            right: 0;
+            top: 450px;
+        }
+        .text-section .btn-section {
+            text-align: center;
+            position: relative;
+            top: 420px;
+            right: 5%;
+        }
+        .text-section .btn-section button {
+            width: 150px;
+            height: 50px;
+        }
+        footer {
+            margin-top: 200px;
+            padding: 20px;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            align-content: center;
+        }
+        footer section {
+            width: 50%;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        footer section div {
+            margin: auto;
+        }
+    }

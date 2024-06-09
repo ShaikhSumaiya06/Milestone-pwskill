@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav i {
+    font-size: 30px;
+    display: none;
+}
+
+.nav-logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo-section img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-logo-section p {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin: 0px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+
+.nav-links a:first-child {
+    color: orangered;
+}
+
+.nav-btn {
+    padding: 8px 20px;
+    border: 2px solid #929191;
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+}
+
+nav .profile-img {
+    display: none;
+}
+
+
+/* main section styling */
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text-section {
+    padding-left: 20px;
+    margin-right: 100px;
+}
+
+.text-section h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text-section p {
+    margin: 30px 0px;
+    border-left: 3px solid grey;
+    padding: 10px 20px;
+    color: #4a4e52;
+}
+
+.text-section .btn-section button:nth-child(1) {
+    background-color: orangered;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 12px 20px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.text-section .btn-section button:nth-child(2) {
+    background-color: transparent;
+    color: #000;
+    outline: 0;
+    border: 2px solid #414141;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.image-section {
+    width: 50%;
+    position: relative;
+    right: -100px;
+}
+
+.image-section .main-image {
+    width: 70%;
+}
+
+.image-section .main-image-border {
+    width: 75%;
+    position: absolute;
+    right: 130px;
+    top: -20px;
+}
+
+.image-section .circle-img {
+    position: absolute;
+    top: 350px;
+}
+
+.image-section .green-img {
+    position: absolute;
+    right: 540px;
+    top: 380px;
+}
+
+.image-section .orange-img {
+    position: absolute;
+    right: 640px;
+    top: -35px;
+}
+
+.image-section .curved-img {
+    position: absolute;
+    right: 750px;
+    top: 290px;
+    width: 200px;
+}
+
+
+/* footer section styling */
+
+footer {
+    background-color: #19184b;
+    color: #fff;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section {
+    width: 20%;
+}
+
+footer .section-1 h1 {
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+footer .section-1 p {
+    margin-top: 20px;
+}
+
+footer section h2 {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+footer p {
+    color: #acacad;
+}
+
+footer section div {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.section-2 div {
+    background: aqua;
+}
+
+.section-3 div {
+    background-color: orangered;
+}
+
+.section-4 div {
+    background: #3a3ce6;
+}

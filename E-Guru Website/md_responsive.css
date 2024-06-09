@@ -1,0 +1,24 @@
+@media screen and ( max-width:1250px) {
+    nav {
+        padding: 0px 10px;
+    }
+    nav .nav-links a {
+        margin: 0px 10px;
+    }
+    .image-section .curved-img {
+        width: 100px;
+        right: 600px;
+    }
+    .image-section .orange-img {
+        right: 520px;
+        top: -100px;
+    }
+    .image-section .green-img {
+        right: 400px;
+        top: 290px;
+    }
+    .image-section .circle-img {
+        top: 250px;
+        width: 20px;
+    }
+}
