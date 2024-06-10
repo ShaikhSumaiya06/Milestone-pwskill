@@ -1,0 +1,472 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-1 {
+    height: 120vh;
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* navbar designing */
+
+.nav-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.nav-txt {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-logo img {
+    width: 40px;
+    height: 30px;
+    mix-blend-mode: color-burn;
+}
+
+.nav-logo p {
+    font-weight: 600;
+}
+
+
+/* .nav-links {
+    margin-left: 150px;
+} */
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.nav-btn button {
+    width: 180px;
+    height: 50px;
+    background-color: #25a0f3;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.nav-btn button i {
+    margin-left: 10px;
+}
+
+
+/* main container stylings */
+
+
+/* text section styling */
+
+.main-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.main-content div {
+    padding-bottom: 20px;
+    margin-right: 200px;
+}
+
+.main-heading h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.main-description {
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+.main-btns {
+    margin-top: 20px;
+}
+
+.main-btns button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+}
+
+.main-btns .blue-btn {
+    background-color: #3689f5;
+}
+
+.main-btns .blue-btn:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.main-btns .transparent-btn {
+    border: 2px solid #fff;
+    margin-left: 15px;
+}
+
+.main-btns .transparent-btn:hover {
+    background-color: #3689f5;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* form section styling */
+
+.form-section {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.form-section h3 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.astrict {
+    color: red;
+}
+
+form input,
+select {
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+
+form input:focus,
+select:focus {
+    outline: 2px solid #0499be;
+}
+
+#Input-btn {
+    background-color: #47adf1;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 7px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    transition: all 700ms;
+}
+
+#Input-btn:hover {
+    border: 2px solid #616161;
+    background-color: transparent;
+    color: gray;
+}
+
+
+/* feature section stylings */
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2>h1 {
+    margin-top: 60px;
+    padding-top: 60px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container-2>p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    text-align: center;
+    color: #737373;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.card-header {
+    background-color: #0499be;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-icon {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-icon i {
+    color: #33bbff;
+}
+
+.card-content {
+    padding: 40px;
+    border: 1px solid #33bbff;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 0;
+}
+
+.card-title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card-content ul {
+    list-style: none;
+}
+
+.card-content ul li {
+    margin-bottom: 5px;
+    color: #737373;
+}
+
+.card-content a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #33bbff;
+}
+
+
+/* rating section */
+
+.ratings {
+    background-color: #f7f7f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratings>h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.ratings>p {
+    color: #737373;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.r-cards {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    gap: 40px;
+}
+
+.r-card {
+    background-color: #fff;
+    border: 2px solid #dee2e4;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 7px;
+}
+
+.r-card:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 8px #a8a7a7;
+}
+
+.stars i {
+    color: yellow;
+}
+
+.r-card>p {
+    color: rgb(85, 86, 88);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* faq section */
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq>h1 {
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.faq>p {
+    color: #737373;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.faq-cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 50px 100px;
+    margin-bottom: 100px;
+}
+
+.f-card i {
+    color: #33bbff;
+    position: relative;
+    left: -25px;
+    top: 20px;
+}
+
+.f-card .one {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.f-card .two {
+    color: #5a5555;
+}
+
+
+/* pricing section */
+
+.pricing {
+    background-color: #f7f7f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing>h1 {
+    margin-top: 50px;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.pricing>p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #737373;
+}
+
+.p-cards {
+    margin-top: 50px;
+}
+
+.p-card {
+    background-color: #fff;
+    border: 2px solid #33bbff;
+    padding: 30px;
+}
+
+.p-card>h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.p-card>p {
+    text-align: center;
+    margin: 20px 0px;
+    color: #424242;
+}
+
+.p-card>.price {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #33bbff;
+}
+
+.price>h2 {
+    font-size: 2.5rem;
+}
+
+.price>.price-info>h2,
+.price>.price-info>p {
+    font-size: 15px;
+}
