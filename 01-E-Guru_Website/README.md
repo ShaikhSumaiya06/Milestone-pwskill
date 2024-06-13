@@ -10,4 +10,4 @@ Preview is now available in the output folder.
 
 ## Key features
 
-+ ** Course Catalog : ** Browse through a variety of courses covering different subjects and skills.
++ __ Course Catalog : __ Browse through a variety of courses covering different subjects and skills.
