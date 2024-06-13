@@ -4,7 +4,7 @@ Welcome to the Futuristic Bike/E-Scooter Landing page project! This project show
 
 ## Table of Contents 
 
-+ [Introduction](#introduction)
+- [Introduction](#introduction)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Preview](#preview)
