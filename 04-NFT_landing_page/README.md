@@ -4,12 +4,12 @@ Welcome to the NFT Website Landing Page project! This project showcases a visual
 
 ## Table of Contents
 
-- (Introduction)[#introduction]
-- (Features)[#features]
-- (Technologies Used)[#technologes-used]
-- (Preview)[#preview]
-- (How to Clone?)[#how-to-clone]
-- (Contributing)[#contributing]
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologes-used)
+- [Preview](#preview)
+- [How to Clone?](#how-to-clone)
+- [Contributing](#contributing)
 
 ## Introduction
 
