@@ -30,7 +30,7 @@ The NFT website Landing Page is a unique and attractive web project that demonst
 
 ## Preview
 
-Preview is availabe in the __distribution (dist>output)__ folder.
+Preview is availabe in the __public (public>output)__ folder.
 
 ## How to Clone?
 To view or contribute to the  project, follow these steps :
