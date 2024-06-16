@@ -35,9 +35,9 @@ Preview is availabe in the __distribution (dist>output)__ folder.
 ## How to Clone?
 To view or contribute to the  project, follow these steps :
  
-    1. Clone the repository : `git clone https://github.com/ShaikhSumaiya06/Milestone-pwskill/tree/main/04-NFT_landing_page`
-    1. Open the project in your preferred code editor.
-    1. Launch the `index.html` file in your browser.
+1. Clone the repository : `git clone https://github.com/ShaikhSumaiya06/Milestone-pwskill/tree/main/04-NFT_landing_page`
+1. Open the project in your preferred code editor.
+1. Launch the `index.html` file in your browser.
 
 ## Contributing
 
